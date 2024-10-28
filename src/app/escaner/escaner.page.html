@@ -1,0 +1,37 @@
+<ion-content id="main-content" fullscreen="true" color="light">
+  <ion-header>
+    <ion-toolbar color="success">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/home"></ion-back-button>
+      </ion-buttons>
+      
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+        <ion-button routerLink="/home" style="margin-left: 10px;" color="success">
+          <ion-icon name="home"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="ion-text-center" style="padding: 20px;">
+    <img src="https://gagadget.com/media/post_big/QjVmxuEvLwV9rdr9yBB4Th.jpg" alt="Escanear QR" style="max-width: 100%; height: auto; margin-bottom: 20px;" />
+    <p style="margin: 20px 0; font-size: 1.2em; font-weight: bold; color: #3880ff;">
+      Para registrar tu asistencia, haz clic en el botón "Escanear QR".
+    </p>
+    <ion-button expand="full" shape="round" (click)="escanear()" class="custom-button" style="background-color: #28a745; color: white;">
+      Escanear QR
+    </ion-button>
+  </div>
+</ion-content>
+
+<style>
+  ion-header {
+    --background: #28a745; /* Verde para el encabezado */
+    color: white; /* Color del texto en el encabezado */
+  }
+  .custom-button {
+    --background: #28a745; /* Color verde del botón */
+    --color: white; /* Color del texto en el botón */
+  }
+</style>

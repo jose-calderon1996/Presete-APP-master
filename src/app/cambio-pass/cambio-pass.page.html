@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cambiar Contraseña</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/home" color="light">
+        <ion-icon slot="icon-only" name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  
+  
+  <ion-item>
+    <ion-label position="floating">Nueva Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="nuevaContrasena" color="success"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label position="floating">Confirmar Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="confirmarContrasena" color="success"></ion-input>
+  </ion-item>
+  
+  <ion-button expand="full" color="success" (click)="cambiarContrasena()">
+    Cambiar Contraseña
+  </ion-button>
+</ion-content>

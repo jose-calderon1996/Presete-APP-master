@@ -1,0 +1,68 @@
+.perfil-container {
+    padding: 16px;
+  }
+  
+  .perfil-card {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  }
+  
+  .perfil-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; /* Color del título para contraste */
+  }
+  
+  ion-list {
+    margin-top: 10px;
+  }
+  
+  .perfil-item {
+    --background: #f0f8ff; /* Fondo suave para los items */
+    --border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px; /* Aumenta el padding */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+  }
+  
+  .perfil-item:hover {
+    --background: #e0f7fa; /* Color al pasar el mouse */
+  }
+  
+  ion-icon {
+    font-size: 24px;
+    color: #3880ff; /* Color de los íconos */
+  }
+  
+  .label-title {
+    font-size: 18px; /* Tamaño de letra para el título */
+    color: #3880ff; /* Color verde */
+    margin: 0; /* Eliminar márgenes */
+  }
+  
+  .label-value {
+    font-size: 16px; /* Tamaño de letra para el valor */
+    color: #333; /* Color del texto */
+    margin: 0; /* Eliminar márgenes */
+  }
+  
+  .ir-asistencia {
+    margin-top: 20px;
+  }
+  
+  .info-extra {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .info-extra p {
+    color: #333; /* Color del texto */
+    font-size: 1em; /* Tamaño de texto ajustado */
+  }
+  
